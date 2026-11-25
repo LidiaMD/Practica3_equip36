@@ -8,7 +8,7 @@ public traumatologia(String nom, int edat){
  super(nom, edat);
  zonaLesio = "";
  
- 
+    
 }
 
 
