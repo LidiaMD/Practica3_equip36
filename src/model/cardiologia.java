@@ -1,4 +1,5 @@
 package model;
+<<<<<<< HEAD
 
 public class cardiologia extends pacient {
     
@@ -28,3 +29,9 @@ public class cardiologia extends pacient {
     public void setMinuts(int minuts) {
         this.minuts = minuts;
     }}
+=======
+public class cardiologia extends pacient{
+
+    private int iniSimpt;
+}
+>>>>>>> 6f2b5ecfcfc026e1fddfe6d6c101515f9473a63c

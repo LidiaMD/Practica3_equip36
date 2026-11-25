@@ -1,4 +1,5 @@
 package model;
+<<<<<<< HEAD
 
 public class ginecologia extends pacient{
 private boolean esPrimerFill;
@@ -85,4 +86,8 @@ public double grauUrgencia(){
 
 
 
+=======
+public class ginecologia{
+    
+>>>>>>> 6f2b5ecfcfc026e1fddfe6d6c101515f9473a63c
 }

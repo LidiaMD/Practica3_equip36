@@ -1,5 +1,6 @@
 package model;
 
+
 public class pacient  {
 private String nom;
 private int edat;
@@ -38,7 +39,6 @@ public double grauUrgencia(){
    
     return (edat/20);
 }
-
 
 
 }
