@@ -1,5 +1,4 @@
 package model;
-<<<<<<< HEAD
 
 public class ginecologia extends pacient{
 private boolean esPrimerFill;
@@ -13,7 +12,7 @@ public ginecologia(String nom, int edat){
  
 }
 
-public boolean isEsPrimerFill() {
+public boolean EsPrimerFill() {
     return esPrimerFill;
 }
 
@@ -70,7 +69,7 @@ public double grauUrgencia(){
     if(isDiabetesGestional()){
       urg = (getEdat()/20)+0.5;
     }
-    if((isDiabetesGestional())&&(esPrimerFill())){
+    if((isDiabetesGestional())&&(EsPrimerFill())){
       urg = (getEdat()/20)+0.5+0.3;
     }
     else{
@@ -86,8 +85,4 @@ public double grauUrgencia(){
 
 
 
-=======
-public class ginecologia{
-    
->>>>>>> 6f2b5ecfcfc026e1fddfe6d6c101515f9473a63c
 }

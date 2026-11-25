@@ -11,8 +11,10 @@ public pacient(String nom, int edat){
  this.nom = nom;
  this.edat = edat;
  alergia = false;
+ //codi
  
 }
+//codi
 
 public String getNom() {
     return nom;
@@ -36,7 +38,7 @@ public String toString() {
 }
 
 public double grauUrgencia(){
-   
+   //getter i setter 
     return (edat/20);
 }
 

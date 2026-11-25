@@ -1,11 +1,10 @@
 package model;
-<<<<<<< HEAD
 
 public class cardiologia extends pacient {
     
     private int minuts;
 
-    public cardiologia(nom, edat){
+    public cardiologia(String nom, int edat){
       super(nom, edat);
       minuts = 0;
 
@@ -29,9 +28,3 @@ public class cardiologia extends pacient {
     public void setMinuts(int minuts) {
         this.minuts = minuts;
     }}
-=======
-public class cardiologia extends pacient{
-
-    private int iniSimpt;
-}
->>>>>>> 6f2b5ecfcfc026e1fddfe6d6c101515f9473a63c
